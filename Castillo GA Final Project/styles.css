@@ -1,0 +1,80 @@
+     
+      
+
+
+      .heading {
+         position: top;
+         right: 0px;
+         width: 900px;
+         height: 70px;
+         border: 3px solid black;
+         padding: 0px;
+         background-color: #DCDCDC;
+         text-align: center;
+         font-family: "Ariel Black", Gadget, sans-serif;
+      }
+
+
+      .headingTwo {
+
+         position: top;
+         right: 0px;
+         width: 900px;
+         height: 100px;
+         border: 3px solid black;
+         padding: 0px;
+         background-color: #ADD8E6;
+         text-align: center;
+         font-family: "Ariel Black", Gadget, sans-serif;
+
+      }
+
+      html, body {
+
+      font-size: 100%;  
+      }
+      
+      .accordion {
+      margin: 0px;
+      width: 905px;
+       }
+      
+      .accordion dt {
+      padding: 10px;
+      border: 3px solid #000;
+      border-radius: 25px;
+      }  
+
+
+      .accordion dd {
+        padding: 10px;
+        border: 3px solid #000;
+        
+      }
+      
+      .accordion dt a,
+      .accordion dd a {
+        display: block;
+        color: black;
+        font-weight: normal;
+        font-family: "Ariel Black", Gadget, sans-serif;
+        font-size: 1.5rem;
+        text-decoration: none
+      }
+      
+      .accordion dt {
+        background-color: #008080;
+      }
+      
+      .accordion dd {
+        margin: 0;
+        border-top-width: 0;
+        border-bottom-width: 0;
+        font-size: 1rem;
+        font-family: "Ariel Black", Gadget, sans-serif;
+        background-color: #EEE8AA;
+      }
+      
+      .accordion dd:last-of-type {
+        border-bottom-width: 1px;
+      }

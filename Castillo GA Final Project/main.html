@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cell phone safety</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+  </head>
+     
+      
+<div class="heading">
+<h1> Safe Smartphone Check Up</h1> </div>
+
+<div class="headingTwo">
+<h2> What kind of information does your partner seem to know? Click on these questions to find out if something might be wrong with your phone.</h2></div>
+
+&nbsp;&nbsp;
+
+<body>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($){
+        
+        // Hide all panels to start
+        var panels = $('.accordion > dd').hide();
+        
+        // On click of panel title
+        $('.accordion > dt > a').click(function() {
+          var $this = $(this);
+          
+        // Slide up all other panels
+          panels.slideUp();
+          
+        //Slide down target panel
+        $this.parent().next().slideDown();
+          
+          return false;
+        });
+      });
+    </script>
+
+
+
+  <body>
+    <dl class="accordion">
+      <dt><a href="">Does you partner know who you have been talking to over the phone or email?</a></dt>
+
+      <dd>If you partner seems to know who you have been talking to, check to make sure they do not have access to your cell phone account or bills.
+
+      Here's more information from the following carriers: 
+
+      <ul>
+
+
+      <li> <a href="https://www.att.com/esupport/article.html#!/wireless/KM1009073" target = "_blank">"ATT"</a> </li>
+      <li> <a href="https://www.verizonwireless.com/support/assign-account-manager-roles-faqs/" target = "_blank" > "Verizon"</a></li>
+
+      </ul>
+
+      </dd>
+
+      <dt><a href="">Does you partner know where you go? Your location?</a></dt>
+
+      <dd>
+          There are many places on your phone and social media that could be giving away your location. Check the following: 
+
+      <ul>
+        <li>Are people checking you in on social media?</li>
+        <li>Are any location apps running?</li>
+        <li>Do you have anyone following you on 'Find a friend'?</li> 
+        <img src="http://blogs-images.forbes.com/larrymagid/files/2014/07/loc_off-1.jpg?width=960"; alt="location settings" style="width:240;height:409px;  "> 
+      </ul>   
+
+        </dd>
+
+      <dt><a href="">Does you partner know details about the conversations you have with others?</a></dt>
+
+      <dd>
+      <ul>
+        <li> If your partner has had physical access to your phone, your cell phone maybe compromised. Before you take your cell phone to your provider, check your settings to make sure your messages aren't being forwarded.</li>
+
+        <li> If you have recently gotten a new phone, make sure to upload the contacts and settings manually. Simply uploading what was on your previous phone can tranfer tracking applications.</li>
+
+
+
+      </dd>
+    </dl>
+  
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+<footer>
+  <p>The information from this page was gathered from The National Network to End Domestic Violence (2013) handout, <a href="http://nnedv.org/downloads/SafetyNet/NNEDV_CellPhoneSafetyPlan_2013.pdf" target = "_blank">"Cell phone and location safety strategies."</a> </p>
+</footer>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+</html>
